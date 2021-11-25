@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+h1{
+    font-size: 30px;
+    background-color: teal;
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+
+.container{
+    margin: auto;
+    margin-top: 30px;
+    width:80vw;
+    height: 80vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:10px;
+    border-radius: 5px;
+
+}
+
+.details{
+    padding:3px;
+    width: 100%;
+}
+
+input{
+    padding:5px 10px;
+    font-family:inherit;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    border:1px solid grey;
+    padding:4px 9px;
+}
+
+input[type="submit"]:active{
+    background-color: black;
+}
+
+input[type="text"]{
+    width:40%;
+}
+
+.shell{
+    padding:5px;
+    margin:5px;
+    height:85%;
+}
+
+.shell h3{
+    display: inline-block;
+    border-radius: 5px;
+    padding:5px;
+    margin:5px;
+    font-size: 15px;
+    font-style: normal;
+    width:40%;
+}
+
+.shell pre{
+    height: 75%;
+    text-align: start;
+    padding:10px;
+    margin:10px;
+    background-color: black;
+    border-top:1px solid whitesmoke;
+    border-bottom:1px solid whitesmoke;
+    overflow:scroll;
+}
+
+.shell input[type="text"]{
+    width:75%;
+}
